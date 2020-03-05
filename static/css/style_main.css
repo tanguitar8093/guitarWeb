@@ -1,0 +1,221 @@
+/*字型相關*/
+.font {
+	font-family: "Microsoft JhengHei";
+	font-size: 1.2vw;
+	font-weight: 600;
+	color: gray;
+}
+
+.font2 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1.2vw;
+	font-weight: 700;
+	color: gray;
+}
+
+.font3 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1.2vw;
+	font-weight: 700;
+	color: black;
+}
+
+.font4 {
+	font-family: "Microsoft JhengHei";
+	font-size: 3vw;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 0.3vw;
+	text-align: center;
+}
+
+.font5 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1vw;
+	font-weight: 700;
+	color: #2F4F4F;
+	letter-spacing: 0.3vw;
+	/*text-align: center;*/
+}
+
+.font6 {
+	font-family: "Microsoft JhengHei";
+	font-size: 0.8vw;
+	font-weight: 500;
+	color: gray;
+	letter-spacing: 0.3vw;
+	/*text-align: center;*/
+}
+
+.font7 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1vw;
+	font-weight: 700;
+	color: #7c6853;
+	line-height: 1.2vw;
+	/* 設定文字行距 */
+	letter-spacing: 0.2vw;	
+}
+
+.font8 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1.3vw;
+	font-weight: 700;
+	color: #7a736b;
+	line-height: 1vw;
+/*	text-align: center;*/
+	/* 設定文字行距 */
+	letter-spacing: 0.2vw;	
+}
+.font9 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1vw;
+	font-weight: 500;
+	color: white;
+	line-height: 1vw;
+	/* 設定文字行距 */
+	letter-spacing: 0.2vw;	
+}
+
+.font10 {
+	font-family: "Microsoft JhengHei";
+	font-size: 1vw;
+	font-weight: 800;
+	color: #7a736b;
+	line-height: 2vw;
+	/* 設定文字行距 */
+	letter-spacing: 0.5vw;	
+}
+
+h1 {
+	font-family: "Microsoft JhengHei";
+	font-size: 3vw;
+	font-weight: 500;
+	color: black;
+	letter-spacing: 0.3vw;
+	text-align: center;
+}
+
+p {
+	font-size: 1vw;
+	/* 設定文字大小 */
+	line-height: 1.5vw;
+	/* 設定文字行距 */
+	letter-spacing: 0.3vw;
+	/* 設定文字間距 */
+	/*background-image: url(dot.gif); /* 設定文字背景圖  */ 
+}
+/*文章列表字數格式(配合圖片大小作調整)*/
+.textformat{
+	margin-right:1vw;
+	margin-left:1.2vw;
+	margin-top:0.5vw 
+}
+.textTitle{
+	margin-right:1vw;
+	margin-left:3vw; 
+}
+
+
+/*間格*/
+.firstPhotoMarin{
+	margin-left: 1vw;
+}
+
+.areaMargin {
+	margin-top: 2vw;
+}
+
+.textMargin {
+	margin-top: 3vw;
+}
+
+.photoMargin {
+	margin-top: 2vw;
+	margin-left: 1vw;
+}
+
+.articleMargin{
+	margin-right:1vw;
+	margin-left:1.2vw;
+	margin-top:0.5vw
+}
+/*標題列*/
+.place {
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 50px;
+	clear: both;
+	opacity: 0.9;
+	z-index: 1;
+}
+
+.line {
+	border-left-style: solid;
+	border-left-width: 1px;
+	margin-left: 0.5vw;
+	padding-left: 1vw;
+	border-color: #ebe8e2;
+}
+
+.nav-link {
+	color: gray !important;
+}
+
+
+/*修正空隙*/
+
+.col-sm-6,
+.col-sm-6,
+.col-md-12 {
+	padding-right: 0px;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/*圖片暗化效果*/
+
+.blackmask {
+	width: 100%;
+	background: black;
+	height: 20vw;
+	z-index: 1;
+	opacity: 0.5;
+	line-height: 20vw;
+}
+
+/*方塊磚排版處理*/
+
+
+.bigPhoto {
+	width: 90%;
+	height: 35vw;
+}
+
+.smallPhoto {
+	width: 90%;
+	height: 16.5vw;
+}
+
+/*分隔區塊處理*/
+
+.areaPhotoSize{
+	height:20vw; 
+	width:100%; 
+	overflow:hidden;
+	background-size:cover;
+}
+.areaPhotoLocation{
+	margin: -50vw 0 0 -10vw;
+}
