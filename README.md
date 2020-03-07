@@ -1,3 +1,7 @@
+# 老徐彈吉他網站 Vue
+使用Vue.js:vue-router,webpackage
+以nuxt框架整合
+
 # guitar-project-jquery
 
 > My sensational Nuxt.js project
